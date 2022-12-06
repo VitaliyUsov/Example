@@ -1,32 +1,14 @@
-# Prerequisites
-*.d
+#включить <iostream>
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main()
+{
+    int t = true;
+ std::cout << t << std::endl;
+    // 1
 
-# Precompiled Headers
-*.gch
-*.pch
+    int f = false;
+ std::cout << f << std::endl;
+    // 0
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+    возвращает 0;
+}
